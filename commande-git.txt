@@ -14,4 +14,12 @@ Git add ( <nom du fichier>, exemple : git add exemple.txt ) = aoute le ou les fi
 
 ( Git switch <nom> ou Git checkout = <nom>, exemple : git checkout test ) = permet de changer de branche;
 
+Git merge <branch> = permet de fusionner 1 ou plusieurs branches (attention de bien se positionner sur la branche qui va recevoir la fusion);
+
+Git remove add origin <address> = ajoute un dépôt distant à notre projet (vers Github par exemple)
+
+Git push = pousser des modifications vers le dépôt distant;
+Trace pour un push
+créer/modifier un fichier > ajouter la modification dans l'index (git add) > intégrer les modifications dans l'historique (dépôt local) (git commit) > publier sur le dépôt distant (git push);
+
 
